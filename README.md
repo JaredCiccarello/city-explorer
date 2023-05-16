@@ -2,6 +2,21 @@
 
 ![WRRC](https://github.com/JaredCiccarello/city-explorer/assets/126429063/b0dbb0bc-63e2-4bc0-a392-85e388701143)
 
+![Screenshot 2023-05-15 191004](https://github.com/JaredCiccarello/city-explorer/assets/126429063/3c00b55c-341f-487b-bca2-7bcb57fc80db)
+
+
+
+
+        Lab 6
+Name of feature: Lat and Lon
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 0630
+
+Finish time: 
+
+Actual time needed to complete: 
 
 
 Name of feature: Set up your React repository & API keys.
@@ -10,9 +25,10 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 415
 
-Finish time: _____
+Finish time: 0630
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr 45
+
 
 
 # Project Name
