@@ -8,15 +8,25 @@
 
 
         Lab 6
+Name of feature: Rendering map Image
+
+Estimate of time needed to complete: 2 hour
+
+Start time: 0800
+
+Finish time: 1100
+
+Actual time needed to complete: 3 hr
+
 Name of feature: Lat and Lon
 
 Estimate of time needed to complete: 1 hour
 
 Start time: 0630
 
-Finish time: 
+Finish time: 0800
 
-Actual time needed to complete: 
+Actual time needed to complete: 1 hr 30
 
 
 Name of feature: Set up your React repository & API keys.
