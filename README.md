@@ -18,6 +18,7 @@ Finish time: 1100
 
 Actual time needed to complete: 3 hr
 
+
 Name of feature: Lat and Lon
 
 Estimate of time needed to complete: 1 hour
@@ -48,9 +49,17 @@ Actual time needed to complete: 1 hr 45
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+This application allows for individuals to choose any location around the world and get an exacty longitude and latitude location of that input. They will also get a fully rendered image showing them the specific location that they have selected.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+1. Create react app
+2. Get LocationIO key
+3. Install VScode
+4. Install ???
+4. Must have the most up to date npm version 7 or higher
+5. Must have boostrap/axios installed
+
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
