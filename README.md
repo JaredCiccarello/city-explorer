@@ -2,6 +2,32 @@
 
 ![WRRC](https://github.com/JaredCiccarello/city-explorer/assets/126429063/b0dbb0bc-63e2-4bc0-a392-85e388701143)
 
+![Screenshot 2023-05-15 191004](https://github.com/JaredCiccarello/city-explorer/assets/126429063/3c00b55c-341f-487b-bca2-7bcb57fc80db)
+
+
+
+
+        Lab 6
+Name of feature: Rendering map Image
+
+Estimate of time needed to complete: 2 hour
+
+Start time: 0800
+
+Finish time: 1100
+
+Actual time needed to complete: 3 hr
+
+
+Name of feature: Lat and Lon
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 0630
+
+Finish time: 0800
+
+Actual time needed to complete: 1 hr 30
 
 
 Name of feature: Set up your React repository & API keys.
@@ -10,9 +36,10 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 415
 
-Finish time: _____
+Finish time: 0630
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr 45
+
 
 
 # Project Name
@@ -22,9 +49,17 @@ Actual time needed to complete: _____
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+This application allows for individuals to choose any location around the world and get an exacty longitude and latitude location of that input. They will also get a fully rendered image showing them the specific location that they have selected.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+1. Create react app
+2. Get LocationIO key
+3. Install VScode
+4. Install ???
+4. Must have the most up to date npm version 7 or higher
+5. Must have boostrap/axios installed
+
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
