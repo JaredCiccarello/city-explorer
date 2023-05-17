@@ -1,9 +1,33 @@
 # Getting Started with Create React App
 
+Anthony Sinitsa
+Dan Quinn
+Arthur Francisco
+Sheyna Watkin
+Brandon Mizuatani
+
 ![WRRC](https://github.com/JaredCiccarello/city-explorer/assets/126429063/b0dbb0bc-63e2-4bc0-a392-85e388701143)
 
-![Screenshot 2023-05-15 191004](https://github.com/JaredCiccarello/city-explorer/assets/126429063/3c00b55c-341f-487b-bca2-7bcb57fc80db)
+![Screenshot 2023-05-16 163227](https://github.com/JaredCiccarello/city-explorer/assets/126429063/5c8db8d9-4f84-4569-b9b1-00209554d562)
 
+
+
+
+        Lab 7
+Name of feature: Back-end API
+
+Estimate of time needed to complete: 2 hour
+
+Start time: 4:30
+
+Finish time: 
+
+Actual time needed to complete: 
+
+
+Name of feature: Lat and Lon
+
+Estimate of time needed to complete: 1 hour
 
 
 
@@ -71,7 +95,6 @@ This application allows for individuals to choose any location around the world 
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
-
 
 
 
