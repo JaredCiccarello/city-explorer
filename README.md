@@ -13,21 +13,6 @@ Brandon Mizuatani
 ![Screenshot 2023-05-17 002951](https://github.com/JaredCiccarello/reading-notes/assets/126429063/3ee218b6-6cec-489e-ad80-45aced702f3b)
 
 
-        Lab 7
-Name of feature: Back-end API
-
-Estimate of time needed to complete: 2 hour
-
-Start time: 4:30
-
-Finish time: 
-
-Actual time needed to complete: 
-
-
-Name of feature: Lat and Lon
-
-Estimate of time needed to complete: 1 hour
 
 
 
