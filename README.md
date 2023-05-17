@@ -10,7 +10,7 @@ Brandon Mizuatani
 
 ![Screenshot 2023-05-16 163227](https://github.com/JaredCiccarello/city-explorer/assets/126429063/5c8db8d9-4f84-4569-b9b1-00209554d562)
 
-
+![Screenshot 2023-05-17 002951](https://github.com/JaredCiccarello/reading-notes/assets/126429063/3ee218b6-6cec-489e-ad80-45aced702f3b)
 
 
         Lab 7
