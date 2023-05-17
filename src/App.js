@@ -47,15 +47,8 @@ class App extends React.Component {
     this.getWeather();
   }
 
-  // handleForecast = async (e) => {
-  //   e.preventDefault();
-  //   let url = `${process.env.REACT_APP_SERVER}`;
-  //   let forecastData = await axios.get(url);
-  //   this.setState({
-  //     forecastData: forecastData.data
-  //   })
-  // }
-
+  // This is a function
+  // TRY acts as an IF-ELSE statement
   getWeather = async () => {
     try {
       let weatherUrl = `${process.env.REACT_APP_SERVER}/weather?cityData=${this.state.cityName}`;

@@ -5,6 +5,7 @@ Dan Quinn
 Arthur Francisco
 Sheyna Watkin
 Brandon Mizuatani
+Sara TA
 
 ![WRRC](https://github.com/JaredCiccarello/city-explorer/assets/126429063/b0dbb0bc-63e2-4bc0-a392-85e388701143)
 
@@ -14,6 +15,18 @@ Brandon Mizuatani
 
 
 
+
+
+        Lab 8
+Name of feature: 
+
+Estimate of time needed to complete: 2 hour
+
+Start time: 0430
+
+Finish time: 1100
+
+Actual time needed to complete: 3 hr
 
 
         Lab 6
