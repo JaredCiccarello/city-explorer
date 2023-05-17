@@ -25,7 +25,6 @@ class App extends React.Component {
   // - 3) .data
   handleCitySubmit = async (event) => {
     event.preventDefault();
-    console.log(process.env.REACT_APP_LOCATIONIO_API_KEY)
     try {
       let cityUrl = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_LOCATIONIO_API_KEY}&q=${this.state.cityName}&format=json`;
       console.log(cityUrl)
