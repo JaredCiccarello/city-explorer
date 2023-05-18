@@ -16,6 +16,8 @@ class App extends React.Component {
       error: false,
       errorMessage: '',
       weatherData: []
+      // lat: '',
+      // lon: ''
     }
   }
 
@@ -46,6 +48,9 @@ class App extends React.Component {
     }
     this.getWeather();
   }
+
+  // https://api.weatherbit.io/v2.0/forecast/daily?key=c45e8d177b5545a88fec5c6c0f3831ac&days=5&lat=&lon=
+
 
   // This is a function
   // TRY acts as an IF-ELSE statement
