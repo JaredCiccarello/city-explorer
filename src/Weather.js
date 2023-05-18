@@ -14,7 +14,7 @@ class Weather extends React.Component {
           this.props.weatherData.map((forecast, idx) =>
             <div key = {idx}>
               <Card.Text>Date: {forecast.date}</Card.Text>
-              <Card.Text>If you look outside you'll see: {forecast.description}</Card.Text>
+              <Card.Text>Don't forget to touch grass {forecast.description}</Card.Text>
               <Card.Text>High of: {forecast.high}</Card.Text>
               <Card.Text>Low of: {forecast.low}</Card.Text>
               <hr></hr>
