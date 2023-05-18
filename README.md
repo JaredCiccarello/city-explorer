@@ -10,6 +10,8 @@ Tammy Do
 
 ![WRRC](https://github.com/JaredCiccarello/city-explorer/assets/126429063/b0dbb0bc-63e2-4bc0-a392-85e388701143)
 
+![Screenshot 2023-05-18 113746](https://github.com/JaredCiccarello/city-explorer/assets/126429063/cffe9eb6-9563-470f-974b-e52e6b372aca)
+
 ![Screenshot 2023-05-16 163227](https://github.com/JaredCiccarello/city-explorer/assets/126429063/5c8db8d9-4f84-4569-b9b1-00209554d562)
 
 ![Screenshot 2023-05-17 002951](https://github.com/JaredCiccarello/reading-notes/assets/126429063/3ee218b6-6cec-489e-ad80-45aced702f3b)
@@ -19,25 +21,47 @@ Tammy Do
 
 
         Lab 8
-Name of feature: Weather (live)
+Name of feature: Movie database
 
-Estimate of time needed to complete: 2 hour
+Estimate of time needed to complete: 3 hour
+
+Start time: 1000
+
+Finish time: 0130
+
+Actual time needed to complete: 3 1/2 hours
+
+Name of feature: Weatherbit (live)
+
+Estimate of time needed to complete: 4 hour
 
 Start time: 0430
 
-Finish time: 1100
+Finish time: 1000
 
-Actual time needed to complete: 3 hr
+Actual time needed to complete: 5 1/2 hours
 
-Name of feature: Weather (live)
 
-Estimate of time needed to complete: 2 hour
+    Lab 7
+Estimate of time needed to complete: 4 hours
 
-Start time: 0430
+Start time: 4:30
 
-Finish time: 1100
+Finish time: 12:00
 
-Actual time needed to complete: 3 hr
+Actual time needed to complete: 7 1/2
+
+
+Name of feature: Setup your server repository
+
+Estimate of time needed to complete: 1hr
+
+Start time: 3:30
+
+Finish time: 4:30
+
+Actual time needed to complete: 1 hr
+
 
 
         Lab 6
