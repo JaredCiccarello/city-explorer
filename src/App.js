@@ -5,6 +5,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import Weather from './Weather.js'
+import Movie from './Movie.js'
 
 class App extends React.Component {
   constructor(props) {
@@ -90,6 +91,7 @@ class App extends React.Component {
       this.setState({
         movieData: movieResponse.data
       })
+      
 
     } catch (error) {
       console.log('Error getting movie: ', error);
@@ -132,8 +134,14 @@ class App extends React.Component {
                 />}
               </Card.Body>
             </Card>
+
+            <Movie
+            movieData = {this.state.movieData}
+            cityName = {this.state.cityName}
+            />
           </main>
-        }
+
+}
       </>
     );
   }
