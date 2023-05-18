@@ -18,7 +18,7 @@ Sara TA
 
 
         Lab 8
-Name of feature: 
+Name of feature: Weather (live)
 
 Estimate of time needed to complete: 2 hour
 
