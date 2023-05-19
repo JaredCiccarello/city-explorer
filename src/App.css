@@ -4,26 +4,21 @@ header {
   padding-bottom: 3rem;
 }
 
-.card {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    max-height: 20%;
-  }
-
-.card-body {
-  border-radius: 10rem;
+ img.card-img{
+  text-align: center;
+  width: 400px
 }
+
+ div.card-body {
+ padding-left: 20rem;
+} 
+
+
 
 .button {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: .15rem;
-}
-
-
-.div {
-  background-color: yellow;
 }
 
 /* Bottom color */
