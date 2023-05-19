@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+
+QUESTION: If I move movie/weather js into their own folder, what will be affected?
+
+Can we make the background for the MAP image have an image?
+
+
 Anthony Sinitsa
 Dan Quinn
 Arthur Francisco
@@ -7,6 +13,7 @@ Sheyna Watkin
 Brandon Mizuatani
 Sara TA
 Tammy Do
+Tony Regalado
 
 ![WRRC](https://github.com/JaredCiccarello/city-explorer/assets/126429063/b0dbb0bc-63e2-4bc0-a392-85e388701143)
 
@@ -19,6 +26,28 @@ Tammy Do
 
 
 
+
+        Lab 9
+Name of feature: Componentize the front-end codebase.
+
+Estimate of time needed to complete: 3 hour
+
+Start time: 0630
+
+Finish time: 0900
+
+Actual time needed to complete: 2 1/2 hours
+
+Name of feature: Modularize the back-end codebase.
+
+
+Estimate of time needed to complete: 3 hour
+
+Start time: 0400
+
+Finish time: 0630
+
+Actual time needed to complete: 2 1/2 hours
 
         Lab 8
 Name of feature: Movie database

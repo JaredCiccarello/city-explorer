@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import Weather from './Weather.js'
 import Movie from './Movie.js'
+import Row from 'react-bootstrap/Row'
 
 class App extends React.Component {
   constructor(props) {
@@ -27,10 +28,10 @@ class App extends React.Component {
   // - 1) async
   // - 2) await
   // - 3) .data
-  
+
   handleCitySubmit = async (event) => {
     event.preventDefault();
-    
+
     try {
       let cityUrl = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_LOCATIONIO_API_KEY}&q=${this.state.cityName}&format=json`;
       console.log(cityUrl)
@@ -66,6 +67,10 @@ class App extends React.Component {
   // This works as a function
   // We have to have this in here because ????
   // Try works like an if-else statement
+
+
+
+  // MAKING A CHANGE HERE, DO NOT BE ALARMED
   getWeather = async (lat, lon) => {
     try {
       let weatherUrl = `${process.env.REACT_APP_SERVER}/weather?cityData=${this.state.cityName}&lat=${lat}&lon=${lon}`;
@@ -80,23 +85,40 @@ class App extends React.Component {
     }
   };
 
+  // getWeather = async (lat, lon) => {
+  //   try {
+  //     let weatherUrl = `${process.env.REACT_APP_SERVER}/weather?cityData=${this.state.cityName}&lat=${lat}&lon=${lon}`;
+  //     let weatherResponse = await axios.get(weatherUrl);
+  //     let weatherData = weatherResponse.data;
+  //     this.setState({
+  //       weatherData
+  //     })
+  //     // We set this here to give the user an error once the program identifies a problem.
+  //   } catch (error) {
+  //     console.log('Cloudy with a chance of Meatballs: ', error);
+  //   }
+  // };
 
-// We created a getMovie arrow function in order to specify how to sort through our object array.
+
+  // We created a getMovie arrow function in order to specify how to sort through our object array.
   getMovies = async () => {
+    console.log('hi from get movies')
     try {
       let movieURL = `${process.env.REACT_APP_SERVER}/movies?cityName=${this.state.cityName}`;
+      console.log(movieURL)
       let movieResponse = await axios.get(movieURL);
       console.log(movieResponse.data)
 
       this.setState({
         movieData: movieResponse.data
       })
-      
+
 
     } catch (error) {
       console.log('Error getting movie: ', error);
     }
   };
+
 
 
 
@@ -128,20 +150,31 @@ class App extends React.Component {
                 <Card.Title>{this.state.cityName}</Card.Title>
                 <Card.Text>Lat: {this.state.Data1.lat}</Card.Text>
                 <Card.Text>Lon: {this.state.Data1.lon}</Card.Text>
-                {this.state.weatherData.length > 0 && <Weather
-                  weatherData={this.state.weatherData}
-                  cityName={this.state.cityName}
-                />}
+                {/* {this.state.weatherData.length > 0 &&
+
+                  <Weather
+                    weatherData={this.state.weatherData}
+                    cityName={this.state.cityName}
+                  />} */}
               </Card.Body>
             </Card>
 
+            <Row xs={1} sm={2} md={3} lg={5}>
+              {this.state.weatherData.length > 0 &&
+
+                <Weather
+                  weatherData={this.state.weatherData}
+                  cityName={this.state.cityName}
+                />}
+            </Row>
+
             <Movie
-            movieData = {this.state.movieData}
-            cityName = {this.state.cityName}
+              movieData={this.state.movieData}
+              cityName={this.state.cityName}
             />
           </main>
 
-}
+        }
       </>
     );
   }
