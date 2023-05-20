@@ -144,7 +144,7 @@ class App extends React.Component {
         {this.state.error ? <p>{this.state.errorMessage}</p> :
           this.state.haveCityData &&
           <main>
-            <Card className='City p-2 h-100%' style={{ width: '75%' }}>
+            <Card className='City' style={{ width: '75%' }}>
               <Card.Body>
                 <Card.Img src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIO_API_KEY}&center=${this.state.Data1.lat},${this.state.Data1.lon}&zoom=12`} alt="" />
                 <Card.Title>{this.state.cityName}</Card.Title>
