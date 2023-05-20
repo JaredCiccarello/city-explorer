@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherDay from "./WeatherDay";
+import { Card } from "react-bootstrap";
 
 
 class Weather extends React.Component {
@@ -7,23 +8,8 @@ class Weather extends React.Component {
 
     return (
       <>
-        {
-          // Not having the key will create an error "child li key" 
-          // idx key goes inside here.
-          this.props.weatherData.map((forecast, idx) =>
-            // <div key = {idx}>
-            //   <Card.Text>Date: {forecast.date}</Card.Text>
-            //   <Card.Text>Today proves that going outside will be a great idea! {forecast.description}</Card.Text>
-            //   <Card.Text>High of: {forecast.high}</Card.Text>
-            //   <Card.Text>Low of: {forecast.low}</Card.Text>
-            //   <hr></hr>
-            // </div>
-
-            // <Col key={idx} className="mt-4"></Col>
-            <WeatherDay forecast = {forecast}
-            key={idx}/>
-          )
-        }
+          <WeatherDay weatherData = {this.props.weatherData}/>
+      <Card.Title>Take a look at the weather in {this.props.cityName}!</Card.Title>
       </>
 
 
